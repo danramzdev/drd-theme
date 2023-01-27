@@ -1,0 +1,41 @@
+{
+	"name": "drd-theme",
+	"version": "0.1.0",
+	"description": "Theme configuration for Wordpress website",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack --config webpack.config.dev.js --watch",
+		"build": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js"
+	},
+	"author": "https://danramz.dev",
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/core": "^7.20.12",
+		"@babel/preset-env": "^7.20.2",
+		"autoprefixer": "^10.4.13",
+		"babel-loader": "^9.1.2",
+		"browser-sync": "^2.27.11",
+		"browser-sync-webpack-plugin": "^2.3.0",
+		"cross-env": "^7.0.3",
+		"css-loader": "^6.7.3",
+		"cssnano": "^5.1.14",
+		"dotenv": "^16.0.3",
+		"file-loader": "^6.2.0",
+		"include-media": "^1.4.10",
+		"mini-css-extract-plugin": "^2.7.2",
+		"postcss": "^8.4.21",
+		"postcss-loader": "^7.0.2",
+		"prettier": "^2.8.2",
+		"regenerator-runtime": "^0.13.11",
+		"sass": "^1.57.1",
+		"sass-loader": "^13.2.0",
+		"tailwindcss": "^3.2.4",
+		"webpack": "^5.75.0",
+		"webpack-cli": "^5.0.1",
+		"webpack-merge": "^5.8.0"
+	},
+	"browserslist": [
+		"> 1%",
+		"last 20 versions"
+	]
+}

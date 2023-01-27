@@ -1,0 +1,27 @@
+// Include Media Breakpoints
+@import 'node_modules/include-media/dist/include-media';
+$breakpoints: (
+	xs: 576px,
+	sm: 768px,
+	md: 1024px,
+	lg: 1280px,
+	xl: 1536px
+);
+
+// Tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Base
+@import 'base/fonts';
+@import 'base/variables';
+@import 'base/base';
+
+// Layout
+@import 'layout/header';
+@import 'layout/nav';
+@import 'layout/footer';
+
+// Pages
+@import 'pages/home';
