@@ -1,6 +1,6 @@
 {
 	"name": "drd-theme",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Theme configuration for Wordpress website",
 	"main": "index.js",
 	"scripts": {
@@ -21,11 +21,11 @@
 		"cssnano": "^5.1.14",
 		"dotenv": "^16.0.3",
 		"file-loader": "^6.2.0",
-		"include-media": "^1.4.10",
+		"include-media": "^2.0.0",
 		"mini-css-extract-plugin": "^2.7.2",
 		"postcss": "^8.4.21",
 		"postcss-loader": "^7.0.2",
-		"prettier": "^2.8.2",
+		"prettier": "^2.8.3",
 		"regenerator-runtime": "^0.13.11",
 		"sass": "^1.57.1",
 		"sass-loader": "^13.2.0",
